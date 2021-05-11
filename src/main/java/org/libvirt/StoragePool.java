@@ -118,7 +118,7 @@ public class StoragePool {
      * not change the state of the pool on the host.
      *
      * @throws LibvirtException
-     * @return number of references left (>= 0)
+     * @return number of references left (&gt;= 0)
      */
     public int free() throws LibvirtException {
         int success = 0;

@@ -82,7 +82,7 @@ public class Interface {
      * structure is freed and should not be used thereafter.
      *
      * @throws LibvirtException
-     * @return number of references left (>= 0)
+     * @return number of references left (&gt;= 0)
      */
     public int free() throws LibvirtException {
         int success = 0;
