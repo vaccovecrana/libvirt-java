@@ -1003,7 +1003,7 @@ public class Connect {
      * available storage pool sources. e.g. For iSCSI this would be a set of
      * iSCSI targets. For NFS this would be a list of exported paths. The
      * srcSpec (optional for some storage pool types, e.g. local ones) is an
-     * instance of the storage pool&apos;s source element specifying where to
+     * instance of the storage pool's source element specifying where to
      * look for the pools. srcSpec is not required for some types (e.g., those
      * querying local storage resources only)
      *
